@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ClientInfo</title>
+</head>
+
+<?php include('Includes/header.php'); ?>
+
+<body>
+<table width="878" border="0">
+  <tr>
+    <td width="79">&nbsp;</td>
+    <td width="150">&nbsp;</td>
+    <td width="69">&nbsp;</td>
+    <td width="120">&nbsp;</td>
+    <td width="163">&nbsp;</td>
+    <td width="169"><form id="form1" name="form1" method="post" action="">
+      <input type="submit" name="button2" id="button2" value="Submit" />
+    </form></td>
+    <td width="63">&nbsp;</td>
+    <td width="31">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Client</td>
+    <td><input name="Client_Name" type="text" id="Client_Name" size="40" maxlength="40" /></td>
+    <td>&nbsp;</td>
+    <td>    Active <input type="checkbox" name="Active" id="Active" /></td>
+    <td>
+    CofC      <input type="checkbox" name="CofC" id="CofC" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Client ID</td>
+    <td><input name="ClientID" type="text" id="ClientID" readonly="readonly" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td><input name="StreenLine1" type="text" id="StreenLine1" size="30" /></td>
+    <td>&nbsp;</td>
+    <td>Country</td>
+    <td><input name="Country" type="text" id="Country" value="USA" size="20" readonly="readonly" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="StreetLine2" type="text" id="StreetLine2" size="30" /></td>
+    <td>&nbsp;</td>
+    <td>Website</td>
+    <td><input name="Website" type="text" id="Website" size="40" readonly="readonly" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="City" type="text" id="City" size="30" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="35">&nbsp;</td>
+    <td><select name="State" id="State">
+      <option>MO</option>
+      <option>IL</option>
+      <option>AR</option>
+      <option>NY</option>
+    </select></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="35">&nbsp;</td>
+    <td><input name="Zip" type="text" id="Zip" size="8" maxlength="6" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="21">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="24">Terms</td>
+    <td><select name="Terms" id="Terms">
+      <option>Cash in Advance</option>
+      <option>Cash on Delivery</option>
+      <option>Deferred Payment</option>
+    </select></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="21">&nbsp;</td>
+    <td colspan="3">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="124">Notes</td>
+    <td colspan="3"><textarea name="ClientNotes" cols="45" rows="8" id="ClientNotes"></textarea></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td> CreateNewClient </td>
+    <td><input type="submit" name="CreateNewClient" id="CreateNewClient" value="New " /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Clear Form</td>
+    <td><input type="reset" name="Reset" id="button" value="Clear" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+<?php include('Includes/footer.php'); ?>
+
+</body>
+</html>
