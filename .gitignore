@@ -1,6 +1,18 @@
 
 # Created by https://www.gitignore.io/api/osx,cakephp,windows,linux
 
+
+### Dreamweaver ###
+# DW Dreamweaver added files
+_notes
+_compareTemp
+configs/
+dwsync.xml
+dw_php_codehinting.config
+*.mno
+*.lck
+
+
 ### OSX ###
 *.DS_Store
 .AppleDouble
